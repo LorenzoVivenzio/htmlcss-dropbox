@@ -54,6 +54,9 @@ img{
 .title{
     text-align:left;
 }
+.mw-60{
+     max-width: 60%;
+}
 .buisness{
     max-width: 60%;
     height: 500px;
@@ -67,4 +70,8 @@ img{
 
 
     height: 400px;
+}
+.team{
+    background-color: chartreuse;
+    height: 300px;
 }
