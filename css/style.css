@@ -6,3 +6,65 @@
 img{
     max-width: 100%;
 }
+.nav{
+    max-width: 100%;
+    
+    /* regole */
+    height: 80px;
+    border: 1px solid black;
+}
+/* utilities */
+.mg-auto{
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+.bs{
+    border: 1px solid black;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+.job{
+    max-width: 80%;
+
+
+    /* height: 600px; */
+    background-color: bisque;
+}
+.title{
+    max-width: 100%;
+
+    
+    height: 100px;
+    /* background-color: black; */
+}
+.prova-gratis{
+    width: 30%;
+
+    height: 400px;
+}
+.proposta{
+    width:70% ;
+}
+.title{
+    text-align:left;
+}
+.buisness{
+    max-width: 60%;
+    height: 500px;
+    background-color: cadetblue;
+}
+.planes{
+    gap: 20px;
+}
+.col-30{
+    width: 30%;
+
+
+    height: 400px;
+}
