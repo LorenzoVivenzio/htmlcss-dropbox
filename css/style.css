@@ -68,6 +68,12 @@ h1{
 .flex{
     display: flex;
 }
+.bg-white{
+    background-color: white;
+}
+.color-black{
+    color: black;
+}
 .bs{
     border: 1px solid black;
 }
@@ -82,7 +88,14 @@ h1{
     background-color: blue;
     color: white;
     padding: 10px 30px;
-    /* border: 1px solid black; */
+}
+.btn-2{
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 10px 30px;
+    border: 2px solid black;
+    font-family: sans-serif;
 }
 .list{
     justify-content: center;
@@ -174,6 +187,7 @@ a{
 
 
 
+
 /*fine utilities */
 
 
@@ -255,6 +269,10 @@ a{
     flex-wrap: wrap;
     gap: 20px;
 }
+.search{
+    padding-top: 100px;
+    padding-left: 30px;
+}
 .client{
     max-width: 50%;
     background-color: brown;
@@ -291,5 +309,5 @@ a{
     background-color: crimson;
 }
 .bg-marine{
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
