@@ -5,11 +5,14 @@
 }
 img{
     max-width: 100%;
+    display: block;
+
 }
 a{
     text-decoration: none;
 }
 /* utilities */
+
 
 
 .bg-corn{
@@ -75,14 +78,11 @@ h1{
     align-items: center;
 }
 .btn{
-    height: 30px;
+    display: inline-block;
     background-color: blue;
     color: white;
-    padding: 10px 20px;
+    padding: 10px 30px;
     /* border: 1px solid black; */
-}
-.align-center{
-    align-items: center;
 }
 .list{
     justify-content: center;
@@ -116,6 +116,12 @@ h1{
 .title{
     text-align:left;
 }
+.pdg-left10{
+    padding-left: 10px;
+}
+.mw-50{
+    max-width: 50%;
+}
 .mw-60{
      max-width: 60%;
 }
@@ -140,12 +146,30 @@ a{
 }
 .col-30{
     width: 30%;
-
-
-    /* height: 400px; */
 }
 .pdg-10{
     padding: 10px;
+}
+.text-center{
+    text-align: center;
+}
+.h300{
+    height: 300px;
+}
+.title{
+    text-align: center;
+}
+.pdg10{
+    padding: 10px;
+}
+.pdg-top30{
+    padding-top: 30px;
+}
+.pdg-left20{
+    padding-left: 20px;
+}
+.pdg-bot50{
+    padding-bottom: 50px;
 }
 
 
@@ -187,16 +211,7 @@ a{
     margin: 0 auto;
     max-width: 70%;
     display: flex;
-    justify-content: center;
-    align-items: center;
     min-height: 500px;
-}
-.text-center{
-    text-align: center;
-}
-
-.title{
-    text-align: center;
 }
 .partner{
     min-height: 600px;
@@ -229,16 +244,10 @@ a{
     margin: 50px 20px;
     border: 1px solid black;
 }
-
-
-.team{
-    background-color: chartreuse;
-    /* height: 300px; */
-}
 .tit-team{
     width: 100%;
 
-    min-height: 100px
+    /* min-height: 100px */
 }
 .row{
     justify-content: space-between;
